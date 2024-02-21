@@ -1,0 +1,59 @@
+nav{
+    top: 650px; /* Ajusta este valor según la altura de tu imagen */
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    padding: 0.2rem 1.7rem;
+    z-index: 999;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+}
+
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: #F7F7F7;
+    font-size: 1.1rem;
+
+}
+
+nav a:hover{
+    background: #8AB4F8;
+}
+
+nav a.active{
+    background: var(--color-bg-variant);
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

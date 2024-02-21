@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar directorios específicos
+Configuración local/
+Cookies/
+Datos de programa/
+Entorno de red/
+Impresoras/
+Menú Inicio/
+Mis documentos/
+Plantillas/
+Reciente/
+SendTo/
+OneDrive/
+PCManger/
+Saved Games/
+Videos/
+VirtualBox VMs/
+fullstack/
+importante no borrar/
+reactziron/
+udemy/
+ziiro/
+
+# Ignorar archivos específicos
+.bash_history
+.codeium/
+.gitconfig
+.minttyrc
+.packettracer
+.quokka/
+.viminfo
+.vscode/
+AppData/
+Cisco Packet Tracer 8.2.1/
+Documents/
+Favorites/
+GIT/
+IntelGraphicsProfiles/
+NTUSER.DAT
+NTUSER.DAT{40c299b4-94af-11ed-a765-00d49e755c4b}.TM.blf
+NTUSER.DAT{40c299b4-94af-11ed-a765-00d49e755c4b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{40c299b4-94af-11ed-a765-00d49e755c4b}.TMContainer00000000000000000002.regtrans-ms
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
