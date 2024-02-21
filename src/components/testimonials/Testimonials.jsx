@@ -19,7 +19,7 @@ const data = [
   {
     avatar:AVTR1,
     name:'tina snapr',
-    review:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, ea doloribus odio provident reprehenderit expedita autem. Exercitationem adipisci labore quo. Sint error in incidunt.'
+    review:' esta es la prueba del exito ziro sigue adelanteeeeeeeeeeeeeeeee.'
 
   },
   {
