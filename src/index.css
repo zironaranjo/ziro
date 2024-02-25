@@ -16,6 +16,7 @@
 
 
 :root{
+    --imagen-de-fondo: url('./assets/img/galaxia.png');
     --color-bg:#1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary:#4db5ff;
@@ -46,15 +47,13 @@ html{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image:url(./assets/img/rojo.avif);
-    flex-grow:999 ;
-    background-size: 100%;
-    object-fit: scale-down;
+    background-image: var(--imagen-de-fondo);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    height: fit-content;
+     
 
 } 
 
@@ -168,7 +167,7 @@ a:hover{
     }
 
    
-    body{
+    /* body{
     
         background-size: 100%;
         object-fit: cover;
@@ -178,7 +177,7 @@ a:hover{
         background-attachment: fixed;
         aspect-ratio: 1/1;
     
-    } 
+    }  */
 
 
 }
