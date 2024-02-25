@@ -29,7 +29,7 @@
     --container-widht-lg:75%;
     --container-widht-md:86%;
     --container-widht-sm:90%;
-    --container-height-: 90vh;
+    
     }
 
 html{
@@ -46,14 +46,15 @@ html{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image:url(./assets/img/galaxia1.png);
+    background-image:url(./assets/img/rojo.avif);
+    flex-grow:999 ;
     background-size: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    aspect-ratio: 1/1;
+    
 
 } 
 
