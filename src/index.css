@@ -44,7 +44,12 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image:url() ;
+    background-image:url(./assets/img/galaxia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 /*general--styles-----------------------------------------------------------*/
 
