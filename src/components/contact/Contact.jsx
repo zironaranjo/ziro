@@ -32,25 +32,45 @@ const Contact = () => {
           <div className="contact__options">
 
             <article className='contact__option'>
+
+             <div className='color__email'>
             <MdOutlineEmail  className='contact__option-icon'/>
-               <h4>Email</h4>
+             </div>
+               <h4></h4>
                <h5>zironaranjo@gmail.com</h5>
-               <a href="mailto:zironaranjo@gmail.com" target='_blank' rel="noreferrer"><IoIosSend />Send</a>
+               <div className='color__contact'>
+               <a href="mailto:zironaranjo@gmail.com" target='_blank' rel="noreferrer" ><IoIosSend />Enviar</a>
+               </div>
             </article>
 
+
+
             <article className='contact__option'>
+              <div className='color__messenger'>
             <RiMessengerFill  className='contact__option-icon'/>
-               <h4>messenger</h4>
+             </div>
+               <h4></h4>
                <h5>zironaranjo</h5>
-               <a href="https://m.me/profile.php?id=100007102785857" target='_blank' rel="noreferrer"><IoIosSend />Send</a>
+               <div className='color__contact'>
+               <a href="https://m.me/profile.php?id=100007102785857" target='_blank' rel="noreferrer"><IoIosSend />Enviar</a>
+               </div>
             </article>
 
+
+
             <article className='contact__option'>
+             <div className='color__whatsapp'>
             <IoLogoWhatsapp  className='contact__option-icon'/>
-               <h4>WhatsApp</h4>
+            </div>
+               <h4></h4>
                <h5>ziro</h5>
-               <a href="https://api.whatsapp.com/send?phone+34643267797" target='_blank' rel="noreferrer"><IoIosSend />Send</a>
+               <div className='color__contact'>
+               <a href="https://api.whatsapp.com/send?phone+34643267797" target='_blank' rel="noreferrer" ><IoIosSend />Enviar</a>
+               </div>
             </article>
+
+
+
           </div>
           {/* ----END CONTACT--OPCION */}
           <form ref={form } onSubmit={sendEmail}>
@@ -70,7 +90,7 @@ const Contact = () => {
 
              <textarea name="message"  rows="10" placeholder='Your Message' required></textarea>
              <div className='button__send'>
-             <button type='submit' className='btn btn-primary'><IoIosSend />Send</button>
+             <button type='submit' className='btn '><IoIosSend />Send</button>
              </div>
           </form>
         </div>

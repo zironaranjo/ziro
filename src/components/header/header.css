@@ -1,7 +1,40 @@
 header {
-  height: 90vh;
-  padding-top: 3rem;
+  height: 95vh;
+  padding-top: 4rem;
 }
+
+
+
+
+.text-title {
+  color: var(--color-white);
+  animation: typing 3s steps(34), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  position: relative;
+  
+  
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .header__container {
   text-align: center;
@@ -34,7 +67,7 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  /* background: var(--color-); */
 }
 
 /* me----------------------------------*/

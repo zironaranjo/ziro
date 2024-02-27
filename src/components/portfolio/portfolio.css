@@ -12,10 +12,10 @@
 
 .portfolio__item{
     
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
     padding: 0.5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 2px solid var(--color-green);
     transition: var(--transition);
 }
 
@@ -34,7 +34,7 @@
 
 
 .portfolio__item:hover{
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-yellow);
     background: transparent;
 }
 

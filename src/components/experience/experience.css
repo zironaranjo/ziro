@@ -5,17 +5,17 @@
 }
 
 .experience__container > div{
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1.5px solid var(--color-green);
     transition: var(--transition);
 }
 
 
 .experience__container >div:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-yellow);
     cursor: default;
 }
 
