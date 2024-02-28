@@ -4,7 +4,7 @@ import ME from '../../assets/img/zirosparta.png'
 import { FaAward } from "react-icons/fa6"
 import { FaUserFriends } from "react-icons/fa"
 import { FaFolderOpen } from "react-icons/fa"
-
+import { MdLocalPhone } from "react-icons/md"
 
 
 
@@ -44,7 +44,7 @@ const About = () => {
          <p>Trabajo en Equipo
          </p>
         <div className='btn__btn'>
-         <a href="#contact" className='btn btn-primary'>Talk Me</a>
+         <a href="#contact" className='btn btn-primary'><MdLocalPhone /></a>
        </div>
          </div>
        </div> 

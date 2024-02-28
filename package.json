@@ -32,6 +32,8 @@
     
 
   "dev": "vite",
+
+  "host": "vite --host",
   
 
     

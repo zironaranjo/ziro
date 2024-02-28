@@ -1,9 +1,9 @@
 footer{
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .footer__logo{
