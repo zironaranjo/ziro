@@ -15,7 +15,7 @@
     /* background: var(--color-bg-variant); */
     padding: 0.5rem;
     border-radius: 2rem;
-    border: 2px solid var(--color-green);
+    border: 1.5px solid var(--color-primary);
     transition: var(--transition);
 }
 

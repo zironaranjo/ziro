@@ -1,5 +1,5 @@
 nav{
-    top: 700px; /* Ajusta este valor según la altura de tu imagen */
+    top: 500px; /* Ajusta este valor según la altura de tu imagen */
     left: 0;
     background: rgba(0,0,0,0.3);
     width: max-content;
@@ -12,6 +12,7 @@ nav{
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
+    border:1.5px solid var(--color-primary);
 }
 
 
@@ -20,13 +21,13 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: #F7F7F7;
+    color: var(--color-white);
     font-size: 1.1rem;
 
 }
 
 nav a:hover{
-    background: #8AB4F8;
+    background:#2e678d;
 }
 
 nav a.active{
@@ -35,7 +36,14 @@ nav a.active{
 }
 
 
+/* Media queris (Mediun DEVICES)-------------------*/
 
+@media screen and (max-width: 600px){
+    nav{
+        top: 685px;
+    }
+
+}
 
 
 

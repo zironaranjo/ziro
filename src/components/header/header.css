@@ -1,33 +1,7 @@
 header {
   height: 100vh;
   padding-top: 4rem;
-  overflow: hidden;
 }
-
-
-
-
-.text-title {
-  color: var(--color-white);
-  animation: typing 3s steps(34), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  position: relative;
-  
-  
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
 
 
 
@@ -55,7 +29,9 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 7rem;
+  font-size: 1.2rem;
+  color: var(--color-primary);
 }
 
 .header__socials::after {
@@ -67,16 +43,19 @@ header {
 
 /* me----------------------------------*/
 
- .zirosparta {
+  .zirosparta {
   margin-top: 2rem;
-  /* background-color: brown;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 100%;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 2rem;
-  border-radius: 12rem 12rem 0 0; */
-} 
+  left: 20%;
+  left: calc(60% - 11rem); 
+  
+  
+  
+
+  
+}  
 
 /* scroll dowm----------------------------------*/
 

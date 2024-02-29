@@ -8,7 +8,7 @@
 .service{
     /* background: var(--color-bg-variant); */
     border-radius: 0 0 2rem 2rem;
-    border:1.5px solid var(--color-green) ;
+    border:1.5px solid var(--color-primary); 
     height: fit-content;
     transition: var(--transition);
     
@@ -21,7 +21,7 @@
 }
 
 .service__head{
-    background: #4f08ac;
+    background:var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0,0.1);
@@ -29,7 +29,7 @@
 
 .service__head h3{
     color:var(--color-bg);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
 
 }

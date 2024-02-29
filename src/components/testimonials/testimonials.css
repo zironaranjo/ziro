@@ -19,7 +19,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
-    border:2px solid var(--color-green) ;
+    border:2px solid var(--color-primary) ;
 }
 
 .client__review{
