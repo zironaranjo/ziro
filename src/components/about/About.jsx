@@ -26,18 +26,18 @@ const About = () => {
 
             <article className='about__card'>
             <FaAward className='about__icon'/>
-              <h5>Experinece</h5>
-              <small>1+ Year Working</small>
+              <h5>Experience</h5>
+              <small>Adaptable y Evolutivo</small>
             </article>
             <article className='about__card'>
             <FaUserFriends className='about__icon'/>
               <h5>Client</h5>
-              <small>200+ Worldwide</small>
+              <small>Area local</small>
             </article>
             <article className='about__card'>
             <FaFolderOpen  className='about__icon'/>
               <h5>Proyects</h5>
-              <small>50+ Completed</small>
+              <small>15+ Completed</small>
             </article>
             </div>
 

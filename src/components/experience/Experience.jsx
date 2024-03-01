@@ -7,7 +7,7 @@ import { SiTailwindcss } from "react-icons/si"
 import { FaReact } from "react-icons/fa"
 import { BsFiletypeSql } from "react-icons/bs";
 import { SiNestjs } from "react-icons/si"; 
-import { FaPython } from "react-icons/fa"
+import { FaNodeJs } from "react-icons/fa"
 
 const Experience = () => {
   return (
@@ -18,14 +18,14 @@ const Experience = () => {
       <div className="container experience__container">
         <div className='experience__fronted'>
 
-          <h3>Frontend Development</h3>
+          <h3>Frontend Development Evolutivo</h3>
            <div className="experience__content">
 
         <article className='experience__details'>
             <FaHtml5 className='experience__details-icon'/>
             <div>
               <h4>HTML</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
             </div>
             
         </article>
@@ -33,7 +33,7 @@ const Experience = () => {
             <IoLogoCss3 className='experience__details-icon'/>
             <div>
               <h4>CSS</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'></small>
             </div>
             
         </article>
@@ -41,7 +41,7 @@ const Experience = () => {
            <IoLogoJavascript className='experience__details-icon'/>
            <div>
             <h4>JavaScript</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
            </div>
             
         </article>
@@ -49,7 +49,7 @@ const Experience = () => {
             <SiTailwindcss className='experience__details-icon'/>
             <div>
               <h4>TailwindCss</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
             </div>
             
         </article>
@@ -57,7 +57,7 @@ const Experience = () => {
            <FaReact className='experience__details-icon'/>
            <div>
             <h4>React</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
            </div>
             
         </article>
@@ -67,14 +67,14 @@ const Experience = () => {
 {/* ----END OF FRONT----------------------------------------- */}
         <div className='experience__backend'>
 
-            <h3>Backend Development</h3>
+            <h3>Backend Development Evolutivo</h3>
            <div className="experience__content">
 
         <article className='experience__details'>
             <BsFiletypeSql className='experience__details-icon'/>
             <div>
               <h4>SQL</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
             </div>
             
         </article>
@@ -82,7 +82,7 @@ const Experience = () => {
             <SiNestjs className='experience__details-icon'/>
             <div>
               <h4>Nestjs</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'></small>
             </div>
             
         </article>
@@ -90,15 +90,15 @@ const Experience = () => {
            <IoLogoJavascript className='experience__details-icon'/>
            <div>
             <h4>JavaScript</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'></small>
            </div>
             
         </article>
         <article className='experience__details'>
-            <FaPython className='experience__details-icon'/>
+            <FaNodeJs className='experience__details-icon'/>
             <div>
-              <h4>Python</h4>
-            <small className='text-light'>Experienced</small>
+              <h4>Nodejs</h4>
+            <small className='text-light'></small>
             </div>
             
         </article>

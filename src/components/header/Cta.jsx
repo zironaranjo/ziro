@@ -1,5 +1,5 @@
 
-import CV from '../../assets/img/cv1.pdf'
+import CV from '../../assets/img/cvziro.pdf'
 
 
 

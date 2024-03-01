@@ -19,25 +19,25 @@ const data = [
   {
     avatar:AVTR1,
     name:'tina snapr',
-    review:' esta es la prueba del exito ziro sigue adelanteeeeeeeeeeeeeeeee.'
+    review:"¡Increíble experiencia! Mi página web quedó exactamente como la imaginaba. "
 
   },
   {
     avatar:AVTR2,
     name:'tina snapr',
-    review:' esta es la prueba del exito ziro sigue adelanteeeeeeeeeeeeeeeee.'
+    review:"¡No puedo estar más satisfecho!.  página web y diseño para mi negocio superó mis expectativas."
 
   },
   {
     avatar:AVTR3,
     name:'tina snapr',
-    review:' esta es la prueba del exito ziro sigue adelanteeeeeeeeeeeeeeeee.'
+    review: "Quiero expresar mi gratitud por el magnífico trabajo realizado en mi página web. "
 
   },
   {
     avatar:AVTR4,
     name:'tina snapr',
-    review:' esta es la prueba del exito ziro sigue adelanteeeeeeeeeeeeeeeee.'
+    review:"¡Excelente trabajo! Desde el primer contacto hasta la entrega final,  compromiso con la calidad "
 
   },
 
