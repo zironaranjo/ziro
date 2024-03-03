@@ -23,7 +23,13 @@
 }
 
 .client__review{
-    color: var(--color-light);
+    color: var(--color-white);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+    font-size: 0.9rem;
+}
     font-weight: 300;
     display: block;
     width: 80%;

@@ -1,11 +1,11 @@
 
 import './portfolio.css'
 import { IoLogoGithub } from "react-icons/io"
-import { ImPlay } from "react-icons/im";
+import { RxGlobe } from "react-icons/rx"
 
-import  IMG1 from'../../assets/img/redes2.jpg'
-import  IMG2 from'../../assets/img/security1.jpg'
-import  IMG3 from'../../assets/img/codigo1.jpg'
+import  IMG1 from'../../assets/img/restaurante.jpg'
+import  IMG2 from'../../assets/img/control-citas.jpg'
+import  IMG3 from'../../assets/img/control-gastos.jpg'
 import  IMG4 from'../../assets/img/tecnology.jpg'
  
 
@@ -13,31 +13,33 @@ const data = [
           {
        id:1,
        image:IMG1,
-       title:'Crypto Currency Dashboard & Financial Visualization',
-       github:'https://zirocitasreact.netlify.app',
-       demo: 'https://dribbble.com/shots/23677077-Control-de-clientes-y-pacientes'
+       title:'Interfaz Restaurante, Intuitiva , Moderna ,Creativa y Desafiante  ',
+       github:'https://github.com/zironaranjo/restaurante.git',
+       demo: 'https://restaurat-sory-production.up.railway.app'
        
      },
           {
        id:2,
        image:IMG2,
-       title:'Crypto Currency Dashboard & Financial Visualization',
-       github:'https://github.com/zironaranjo',
-       demo: 'https://dribbble.com/shots/23677174-Restaurante-aplicacion'
+       title:'Gestion de Citas De una Manera Eficiente y Organizada',
+       github:'https://github.com/zironaranjo/CitasReact.git',
+       demo: 'https://zirocitasreact.netlify.app'
+       
      },
           {
        id:3,
        image:IMG3,
-       title:'Crypto Currency Dashboard & Financial Visualization',
-       github:'https://github.com',
-       demo: 'https://dribbble.com/shots/23534873-Hyper-Charts-UI'
+       title:'Gastos App,controla y Mantiene tus finanzas Ordenadas',
+       github:'https://github.com/zironaranjo/Gestion-gastos.git',
+       demo: 'https://gestion-gastosvite.netlify.app/'
+       
      },
           {
        id:4,
        image:IMG4,
        title:'Crypto Currency Dashboard & Financial Visualization',
-       github:'https://github.com',
-       demo: 'https://dribbble.com/shots/23534855-Orion-UI-kit-design-system-for-Figma'
+       github:'https://zirocitasreact.netlify.app',
+       demo: 'https://dribbble.com/shots/23677077-Control-de-clientes-y-pacientes'
      },
 ]
 
@@ -61,8 +63,8 @@ const Portfolio = () => {
             <div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank' rel="noreferrer"><IoLogoGithub />Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer"><ImPlay /></a>
+                <a href={github} className='btn' target='_blank' rel="noreferrer"><IoLogoGithub /></a>
+                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer"><RxGlobe /></a>
               </div>
             </div>
           </article>

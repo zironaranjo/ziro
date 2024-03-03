@@ -18,25 +18,25 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar:AVTR1,
-    name:'tina snapr',
+    name:'Soraya Velasquez',
     review:"¡Increíble experiencia! Mi página web quedó exactamente como la imaginaba. "
 
   },
   {
     avatar:AVTR2,
-    name:'tina snapr',
+    name:'Carlos Naranjo',
     review:"¡No puedo estar más satisfecho!.  página web y diseño para mi negocio superó mis expectativas."
 
   },
   {
     avatar:AVTR3,
-    name:'tina snapr',
+    name:'Alex Mendoza',
     review: "Quiero expresar mi gratitud por el magnífico trabajo realizado en mi página web. "
 
   },
   {
     avatar:AVTR4,
-    name:'tina snapr',
+    name:'Milena Correa',
     review:"¡Excelente trabajo! Desde el primer contacto hasta la entrega final,  compromiso con la calidad "
 
   },
