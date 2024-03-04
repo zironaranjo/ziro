@@ -36,10 +36,7 @@ nav a.active{
 }
 
 
-@media screen and (max-width: 1024px){
-    nav{
-        top: 800px; 
-    }
+
 
 
 

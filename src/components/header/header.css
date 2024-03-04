@@ -45,6 +45,7 @@ header {
 
 .zirosparta {
    /* background-color: brown; */ 
+   padding: auto;
   margin-bottom: 2rem;
   width: 15rem;
   height: 100%;

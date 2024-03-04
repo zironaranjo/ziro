@@ -126,10 +126,10 @@ a:hover{
     width: max-content;
     display: inline-block;
     /* color: var(--color-bg); */
-    padding: 0.75rem 1.2rem;
+    padding: 0.35rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 1.5px solid var(--color-primary) ;
     transition: var(--transition);
 }
@@ -142,7 +142,7 @@ a:hover{
 
 .btn-primary{
     border: 1.5px solid var(--color-primary);
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* background: var(); */
     /* color: var(--color-bg); */
 }
@@ -188,8 +188,23 @@ a:hover{
     
         
     }
-    
-
+    .btn{
+        width: max-content;
+        display: inline-block;
+        /* color: var(--color-bg); */
+        padding: 0.60rem 1.2rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        border: 1.5px solid var(--color-primary) ;
+        transition: var(--transition);
+    }
+    .btn-primary{
+        border: 1.5px solid var(--color-primary);
+        font-size: 1.2rem;
+        /* background: var(); */
+        /* color: var(--color-bg); */
+    }
    
    
 
