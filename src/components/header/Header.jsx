@@ -1,6 +1,6 @@
 import './header.css'
 import Cta from './CTA'
-import me from '../../assets/img/zirosparta.png'
+import me from '../../assets/img/fzt.png'
 import HeaderSocials from './HeaderSocials'
 
 

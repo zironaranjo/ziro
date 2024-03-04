@@ -33,39 +33,42 @@ const Contact = () => {
 
             <article className='contact__option'>
 
-             <div className='color__email'>
+             {/* <div className='color__email'>
             <MdOutlineEmail  className='contact__option-icon'/>
-             </div>
+             </div> */}
                <h4></h4>
-               <h5>zironaranjo@gmail.com</h5>
+               <h5 className='color__title'>WhatsApp</h5>
                <div className='color__contact'>
-               <a href="mailto:zironaranjo@gmail.com" target='_blank' rel="noreferrer" ><IoIosSend />Enviar</a>
+               <a href="https://api.whatsapp.com/send?phone=+34643267797" target='_blank' rel="noreferrer" >
+                <IoLogoWhatsapp />
+                </a>
                </div>
             </article>
 
 
 
             <article className='contact__option'>
-              <div className='color__messenger'>
+
+              {/* <div className='color__messenger'>
             <RiMessengerFill  className='contact__option-icon'/>
-             </div>
+             </div> */}
                <h4></h4>
-               <h5>zironaranjo</h5>
+               <h5 className='color__title'>Email</h5>
                <div className='color__contact'>
-               <a href="https://m.me/profile.php?id=100007102785857" target='_blank' rel="noreferrer"><IoIosSend />Enviar</a>
+               <a href="mailto:zironaranjo@gmail.com" target='_blank' rel="noreferrer"><MdOutlineEmail /></a>
                </div>
             </article>
 
 
 
             <article className='contact__option'>
-             <div className='color__whatsapp'>
+             {/* <div className='color__whatsapp'>
             <IoLogoWhatsapp  className='contact__option-icon'/>
-            </div>
+            </div> */}
                <h4></h4>
-               <h5>ziro</h5>
+               <h5 className='color__title'>Messenger</h5>
                <div className='color__contact'>
-               <a href="https://api.whatsapp.com/send?phone+34643267797" target='_blank' rel="noreferrer" ><IoIosSend />Enviar</a>
+               <a href="https://www.facebook.com/messages/requests" target='_blank' rel="noreferrer" ><RiMessengerFill /></a>
                </div>
             </article>
 

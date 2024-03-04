@@ -37,10 +37,13 @@
 
 }
 
+.color__title{
+    color: var(--color-primary);
+}
 
 
 .color__email{
-    color: #5cedf1;
+    color:var(--color-primary);
 }
 .color__messenger{
     color: #5cedf1;
@@ -53,12 +56,13 @@
 
 .color__contact{
     color: var(--color-primary);
+    font-size: 3rem;
 }
 
 .contact__option a{
     margin-top: 1rem;
     display: block;
-    font-size: 1rem;
+    font-size: 2rem;
 
 
 }

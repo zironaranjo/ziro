@@ -43,19 +43,21 @@ header {
 
 /* me----------------------------------*/
 
-  .zirosparta {
-  margin-top: 2rem;
-  width: 20rem;
+.zirosparta {
+   /* background-color: brown; */ 
+  margin-bottom: 2rem;
+  width: 15rem;
   height: 100%;
   position: absolute;
-  left: 20%;
-  left: calc(60% - 11rem); 
-  
+  left: calc(40% - 11rem);
+  bottom: -20%;
+  z-index: -1;
+}
   
   
 
   
-}  
+  
 
 /* scroll dowm----------------------------------*/
 

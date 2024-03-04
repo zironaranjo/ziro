@@ -25,7 +25,7 @@ const data = [
   {
     avatar:AVTR2,
     name:'Carlos Naranjo',
-    review:"¡No puedo estar más satisfecho!.  página web y diseño para mi negocio superó mis expectativas."
+    review:"¡No puedo estar más satisfecho!.  página web, superó mis expectativas. "
 
   },
   {
@@ -37,7 +37,7 @@ const data = [
   {
     avatar:AVTR4,
     name:'Milena Correa',
-    review:"¡Excelente trabajo! Desde el primer contacto hasta la entrega final,  compromiso con la calidad "
+    review:"¡Excelente trabajo! Desde el primer contacto hasta la entrega final. "
 
   },
 

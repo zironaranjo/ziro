@@ -11,15 +11,16 @@ import { MdLocalPhone } from "react-icons/md"
 const About = () => {
   return (
     <section id='about' >
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5 >Get to Know</h5>
+      <h2 >About Me</h2>
 
 
       <div className='container about__container'>
          <div className="about__me">
-          <div className="about__me-image">
+          {/* <div className="about__me-image">
             <img src={ME} alt="img-about" />
-          </div>
+          </div> */}
+          <p className='parrafo'>Well Done Is Better Than Well Said.</p>
          </div>
       <div className="about__content">
         <div className='about__cards'>
