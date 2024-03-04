@@ -39,7 +39,7 @@ const Contact = () => {
                <h4></h4>
                <h5 className='color__title'>WhatsApp</h5>
                <div className='color__contact'>
-               <a href="https://api.whatsapp.com/send?phone=+34643267797" target='_blank' rel="noreferrer" >
+               <a href="https://wa.link/tlpcof" target='_blank' rel="noreferrer" >
                 <IoLogoWhatsapp />
                 </a>
                </div>

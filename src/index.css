@@ -11,6 +11,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    /* max-width: 100vw; */
+    /* overflow-x: hidden; */
 
 }
 
@@ -60,6 +62,7 @@ html{
     background-size: cover;
     background-attachment: fixed;
     
+    
      } 
    
 /*general--styles-----------------------------------------------------------*/
@@ -69,7 +72,7 @@ html{
     margin: 0 auto;
 }
 
-h1,
+
 
 h3,
 h4,
@@ -79,7 +82,8 @@ h5{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 300;
     color: var(--color-yellow);
 
 
@@ -89,6 +93,7 @@ h1{
 
 section{
     margin-top:11rem;
+    
 
     
 }
@@ -175,32 +180,34 @@ a:hover{
 
 @media screen and (max-width: 600px){
     .container{
-        
+        overflow-x: hidden;
         width: var(--container-widht-sm);
     }
-
+    
+   
+    
     
     section > h5{
         margin-bottom: 1rem;
     }
     section{
-        margin-top:7rem;
+        margin-top:1rem;
     
         
     }
     .btn{
-        width: max-content;
+        /* width: max-content;
         display: inline-block;
         /* color: var(--color-bg); */
-        padding: 0.60rem 1.2rem;
+        /* padding: 0.60rem 1.2rem;
         border-radius: 0.4rem;
-        cursor: pointer;
+        cursor: pointer;  */
         font-size: 1.2rem;
-        border: 1.5px solid var(--color-primary) ;
-        transition: var(--transition);
+        /* border: 1.5px solid var(--color-primary) ;
+        transition: var(--transition); */
     }
     .btn-primary{
-        border: 1.5px solid var(--color-primary);
+        /* border: 1.5px solid var(--color-primary); */
         font-size: 1.2rem;
         /* background: var(); */
         /* color: var(--color-bg); */

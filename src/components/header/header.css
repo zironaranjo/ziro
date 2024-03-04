@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 
@@ -10,6 +10,10 @@ header {
   height: 100%;
   position: relative;
 }
+
+
+
+
 
 /* CTA-----------------------------------*/
 
@@ -34,23 +38,23 @@ header {
   color: var(--color-primary);
 }
 
-.header__socials::after {
+/* .header__socials::after {
   content: "";
+  background-color: black;
   width: 1px;
   height: 2rem;
   /* background: var(--color-); */
-}
+ 
 
 /* me----------------------------------*/
 
 .zirosparta {
-   /* background-color: brown; */ 
    padding: auto;
   margin-bottom: 2rem;
-  width: 15rem;
+  width: 22rem;
   height: 100%;
   position: absolute;
-  left: calc(40% - 11rem);
+  left: calc(45% - 11rem);
   bottom: -20%;
   z-index: -1;
 }
